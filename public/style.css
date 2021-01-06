@@ -1,4 +1,39 @@
-body {
-  background: orange;
+nav {
+  background: #563d7c;
+  color: #fff;
+  padding: 2rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 1rem 0 1rem;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+nav li a:hover {
+  color: yellow;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
