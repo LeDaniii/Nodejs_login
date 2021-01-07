@@ -9,6 +9,21 @@ const db = mysql.createConnection({
     database: process.env.DATABASE
 });
 
+exports.login = async (req, res) => {
+    try {
+        const { email, password } = req.body;
+
+
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+
+
+
+
+// #################################################
 exports.register = (req, res) => {
     console.log(req.body);
 
